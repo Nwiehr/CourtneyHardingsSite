@@ -55,6 +55,21 @@
 .courtImage {
 	width: 100%;
 }
+@media only screen and (min-width: 992px) {
+.panelSize {
+	height: 250px;
+}
+}
+@media only screen and (max-width: 992px) {
+#review1, #review2,#review3, #review4, #review5, #review6, #review7, #review8, #review9, #review10, #review11, #review12, #review13, #review14, #review15, #review16, #review17, #review18, #review19, #review20, #review21, #review22, #review23,#review24, #review25, #review26, #review27, #review28, #review29, #review30 {
+	width: 100%;
+}
+}
+#review1, #review2,#review3, #review4, #review5, #review6, #review7, #review8, #review9, #review10, #review11, #review12, #review13, #review14, #review15, #review16, #review17, #review18, #review19, #review20, #review21, #review22, #review23,#review24, #review25, #review26, #review27, #review28, #review29, #review30 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 /*colors*/
 .text-black {
 	color: black;

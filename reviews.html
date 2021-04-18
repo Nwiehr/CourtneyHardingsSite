@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Reviews</title>
+
+    <!-- Bootstrap -->
+     <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	<!-- custom stylesheet -->
+	<link href="css/custom.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/logo.png"/>
+	
+  </head>
+  <body>
+	<nav id="navbar-custom" class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand p-0" href="index.html"><img src="images/logo.png" alt="Logo" width="50" height="50"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="lescape.html">About L'escape</a></li>
+					<li><a href="courtney.html">About Courtney</a></li>
+					<li class="active"><a href="reviews.html">Reviews</a></li>
+					<li><a href="covid.html">Covid-19</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="container md-9">
+		<div class="row mt-5">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<h1 class="text-center">Reviews</h1>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-sm-12 col-md-3 col-lg-3 hidden-sm hidden-xs">
+				<img src="images/5out5.png" alt="Courtney has a five out of five review based on the opinion of 29 people.">
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="panel panel-default tan-border">
+					<div class="panel-body">
+						<input type="button" value="Most Helpful" onclick="helpful()">
+						<input type="button" value="Most Recent" onclick="recent()">
+						<input type="button" value="Oldest First" onclick="old()">
+					</div>
+				</div>
+				<!-- <img id="review" src="images/.png" alt=""> -->
+				<div class="tan-border">
+				<img id="review1" src="images/30.png" alt=""><hr>
+				<img id="review2" src="images/29.png" alt=""><hr>
+				<img id="review3" src="images/28.png" alt=""><hr>
+				<img id="review4" src="images/27.png" alt=""><hr>
+				<img id="review5" src="images/24.png" alt=""><hr>
+				<img id="review6" src="images/26.png" alt=""><hr>
+				<img id="review7" src="images/25.png" alt=""><hr>
+				<img id="review8" src="images/20.png" alt=""><hr>
+				<img id="review9" src="images/19.png" alt=""><hr>
+				<img id="review10" src="images/21.png" alt=""><hr>
+				<img id="review11" src="images/17.png" alt=""><hr>
+				<img id="review12" src="images/23.png" alt=""><hr>
+				<img id="review13" src="images/22.png" alt=""><hr>
+				<img id="review14" src="images/16.png" alt=""><hr>
+				<img id="review15" src="images/18.png" alt=""><hr>
+				<img id="review16" src="images/14.png" alt=""><hr>
+				<img id="review17" src="images/13.png" alt=""><hr>
+				<img id="review19" src="images/11.png" alt=""><hr>
+				<img id="review18" src="images/12.png" alt=""><hr>
+				<img id="review20" src="images/9.png" alt=""><hr>
+				<img id="review21" src="images/10.png" alt=""><hr>
+				<img id="review22" src="images/8.png" alt=""><hr>
+				<img id="review23" src="images/7.png" alt=""><hr>
+				<img id="review24" src="images/6.png" alt=""><hr>
+				<img id="review25" src="images/4.png" alt=""><hr>
+				<img id="review26" src="images/5.png" alt=""><hr>
+				<img id="review27" src="images/3.png" alt=""><hr>
+				<img id="review28" src="images/2.png" alt=""><hr>
+				<img id="review29" src="images/1.png" alt=""><hr>
+				<img id="review30" src="images/15.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="tan">
+		<div class="foot">
+			<p class="text-black text-center">All Rights Reserved 2021</p>
+			<a href="https://www.facebook.com/lescapetravelservice" target="_blank"><p class="text-black text-center float-left">L'escape's Facebook</p></a>
+			<a href="https://lescapetravel.com/" target="_blank"><p class="text-black text-center float-right">L'escape's Website</p></a>
+		</div>
+	</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+	var help = [30, 29, 28, 27, 24, 26, 25, 20, 19, 21, 17, 23, 22, 16, 18, 14, 13, 11, 12, 9, 10, 8, 7, 6, 5, 4, 3, 2, 1, 15];
+	var newest = [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+	function helpful() {
+		for(var i = 1; i <= 30; i++){
+			document.getElementById("review" + i).src = "images/" + help[i - 1] + ".png";
+		}
+	}
+	function recent() {
+		for(var i = 1; i <= 30; i++){
+			document.getElementById("review" + i).src = "images/" + newest[i - 1] + ".png";
+		}
+	}
+	function old() {
+		for(var i = 1; i <= 30; i++){
+			document.getElementById("review" + i).src = "images/" + newest[30 - i] + ".png";
+		}
+	}
+	</script>
+  </body>
+</html>
